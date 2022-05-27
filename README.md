@@ -51,15 +51,19 @@ Giả sử chúng ta muốn xây dựng một chương trình mô phỏng lại 
 #### 3.1. Đối với Proxy Pattern
 
 1.Mở thư mục project bằng Visual Studio Code
+
 2.Truy cập Main.java
-    Đường dẫn : /ProxyPattern/Main.java
+Đường dẫn : /ProxyPattern/Main.java
+
 3.Chọn Run java
 
 #### 3.2. Đối với Visitor Pattern
 
 1.Mở thư mục project bằng Visual Studio Code
+
 2.Truy cập Test.java
-    Đường dẫn : /VisitorPattern/Main.java
+Đường dẫn : /VisitorPattern/Main.java
+
 3.Chọn Run java
 
 ### 4. TÌM HIỂU VÀ TRIỂN KHAI PATTERN
@@ -70,9 +74,9 @@ Giả sử chúng ta muốn xây dựng một chương trình mô phỏng lại 
 
 ###### 4.1.1.1. Giới thiệu 
 
- Như chúng ta đã biết, mẫu thiết kế được chia làm 3 nhóm chính: Nhóm khởi tạo (creational pattern), nhóm cấu trúc (structural pattern) và nhóm hành vi (behavioral pattern). Mỗi nhóm sẽ có những chức năng khác nhau. Nhóm Khởi tạo cung cấp giải pháp liên quan đến khởi tạo đối tượng, che giấu logic của việc tạo nó, thay vì khởi tạo trực tiếp đối tượng bằng phương thức new. Nhóm Cấu trúc liên quan tới lớp và các thành phần đối tượng. Nhưng mẫu thiết kế thuộc nhóm này nhằm định nghĩa, thiết lập quan hệ giữa các đối tượng. Nhóm Hành vi được dùng trong thực hiện hành vi của các đối tượng. Áp dụng mẫu thiết kế góp phần giúp cho code dễ dàng đọc, hiểu, bảo trì hơn. Mẫu thiết kế cũng giúp các nhà phát triển tạo ra hệ thống phần mềm đảm bảo cho code của họ tuân thủ nguyên tắc thiết kế phần mềm. Ở phần này, chúng ta sẽ đi tìm hiểu một mẫu thiết kế thuộc nhóm Cấu trúc, đó là Proxy.
+  Như chúng ta đã biết, mẫu thiết kế được chia làm 3 nhóm chính: Nhóm khởi tạo (creational pattern), nhóm cấu trúc (structural pattern) và nhóm hành vi (behavioral pattern). Mỗi nhóm sẽ có những chức năng khác nhau. Nhóm Khởi tạo cung cấp giải pháp liên quan đến khởi tạo đối tượng, che giấu logic của việc tạo nó, thay vì khởi tạo trực tiếp đối tượng bằng phương thức new. Nhóm Cấu trúc liên quan tới lớp và các thành phần đối tượng. Nhưng mẫu thiết kế thuộc nhóm này nhằm định nghĩa, thiết lập quan hệ giữa các đối tượng. Nhóm Hành vi được dùng trong thực hiện hành vi của các đối tượng. Áp dụng mẫu thiết kế góp phần giúp cho code dễ dàng đọc, hiểu, bảo trì hơn. Mẫu thiết kế cũng giúp các nhà phát triển tạo ra hệ thống phần mềm đảm bảo cho code của họ tuân thủ nguyên tắc thiết kế phần mềm. Ở phần này, chúng ta sẽ đi tìm hiểu một mẫu thiết kế thuộc nhóm Cấu trúc, đó là Proxy.
 
- Proxy trong tiếng Anh có nghĩa là “Ủy quyền” hoặc “Người đại diện”, là một mẫu thiết kế thuộc nhóm Cấu trúc (Structural pattern). Proxy cho phép cung cấp một đối tượng, lớp thay thế sẽ được ủy quyền, đại diện cho đối tượng, lớp khác. Nó kiểm soát quyền truy cập đối với đối tượng ban đầu, tất cả các truy cập trực tiếp đến một đối tượng gốc ban đầu sẽ được chuyển vào lớp trung gian (lớp Proxy). Lớp này cho phép thêm điều kiện, thực hiện một điều gì đó trước khi yêu cầu được chuyển đến đối tượng gốc.
+  Proxy trong tiếng Anh có nghĩa là “Ủy quyền” hoặc “Người đại diện”, là một mẫu thiết kế thuộc nhóm Cấu trúc (Structural pattern). Proxy cho phép cung cấp một đối tượng, lớp thay thế sẽ được ủy quyền, đại diện cho đối tượng, lớp khác. Nó kiểm soát quyền truy cập đối với đối tượng ban đầu, tất cả các truy cập trực tiếp đến một đối tượng gốc ban đầu sẽ được chuyển vào lớp trung gian (lớp Proxy). Lớp này cho phép thêm điều kiện, thực hiện một điều gì đó trước khi yêu cầu được chuyển đến đối tượng gốc.
 
 ###### 4.1.1.2. Phân loại Proxy Pattern
 
