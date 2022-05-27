@@ -84,3 +84,6 @@ Giả sử chúng ta muốn xây dựng một chương trình mô phỏng lại 
 ###### 4.1.1.2.1. Virtual Proxy
 
 Khi có một đối tượng dịch vụ có cấu trúc phức tạp, chứa dữ liệu lớn luôn luôn chạy làm lãng phí tài nguyên hệ thống, mặc dù chỉ cần gọi nó trong một vài trường hợp. Thay vì khởi tạo đối tượng khi ứng dụng chạy, proxy sẽ tạo đối tượng ở lần truy xuất đầu tiên, những lần gọi kế tiếp chỉ cần tái sử dụng lại mà không cần khởi tạo, nhằm tiết kiệm tài nguyên hệ thống. 
+
+
+- 1. aaaaaaaaaaaaaaaaaaaaaaaa
