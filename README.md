@@ -59,12 +59,12 @@ Giả sử chúng ta muốn xây dựng một chương trình mô phỏng lại 
 
 #### 3.2. Đối với Visitor Pattern
 
-1.Mở thư mục project bằng Visual Studio Code
+ - 1.Mở thư mục project bằng Visual Studio Code
 
-2.Truy cập Test.java
-Đường dẫn : /VisitorPattern/Main.java
+ - 2.Truy cập Test.java
+  Đường dẫn : /VisitorPattern/Main.java
 
-3.Chọn Run java
+ - 3.Chọn Run java
 
 ### 4. TÌM HIỂU VÀ TRIỂN KHAI PATTERN
 
