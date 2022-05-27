@@ -91,6 +91,6 @@ Khi có một đối tượng dịch vụ có cấu trúc phức tạp, chứa d
 
 <div align="center">
 
-<img src="https://github.com/phucuong28/Test/issues/9#issue-1250826340" alt="Proxy Pattern Diagram">
+<img src="https://user-images.githubusercontent.com/75523801/170718007-2afa0add-f912-420b-ab91-2168191521ca.png" alt="Proxy Pattern Diagram">
 
 </div>
