@@ -87,3 +87,10 @@ Khi có một đối tượng dịch vụ có cấu trúc phức tạp, chứa d
 
 
 - 1. aaaaaaaaaaaaaaaaaaaaaaaa
+
+
+<div align="center">
+
+<img src="https://github.com/phucuong28/Test/issues/9#issue-1250826340" alt="Proxy Pattern Diagram">
+
+</div>
